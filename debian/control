@@ -1,0 +1,21 @@
+Source: caja-mediainfo-tab
+Section: gnome
+Priority: extra
+Maintainer: Caldas Lopes <joao.caldas.lopes@gmail.com>
+Build-Depends: debhelper (>= 9),
+               python-all,
+               python-distutils-extra,
+               dh-python
+Standards-Version: 3.9.6
+Homepage: https://github.com/linux-man/caja-mediainfo-tab
+
+Package: caja-mediainfo-tab
+Architecture: all
+Section: utils
+Priority: extra
+Depends: ${python:Depends},
+         ${misc:Depends},
+         caja,
+         python-caja,
+         python-mediainfodll
+Description: View media information from the properties tab
