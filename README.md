@@ -11,4 +11,6 @@ or
 
 https://github.com/linux-man/caja-mediainfo-tab/releases
 
+Use caja-mediainfo-tab-gtk2 if Caja < 1.18.
+
 ## TODO: Translations
