@@ -1,2 +1,2 @@
-caja-extension/caja-mediainfo-tab.py usr/share/caja-python/extensions
+caja-extension/* usr/share/caja-python/extensions
 
