@@ -1,3 +1,9 @@
+caja-mediainfo-tab (1.0.1) bionic; urgency=medium
+
+  * Utf-8 decode
+
+ -- Caldas Lopes <joao.caldas.lopes@gmail.com>  Fri, 24 May 2019 23:01:34 +0100
+
 caja-mediainfo-tab (1.0) bionic; urgency=medium
 
   * Force plain text output
