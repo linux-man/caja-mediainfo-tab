@@ -66,6 +66,11 @@ class Mediainfo(GObject.GObject, Caja.PropertyPageProvider):
 
     filename = unquote(file.get_uri()[7:])
 
+    try:
+      filename = filename.decode("utf-8")
+    except:
+      pass
+
     MI = MediaInfo()
     MI.Option_Static("Complete")
     MI.Option_Static("Inform", "Nothing")
