@@ -64,7 +64,7 @@ class Mediainfo(GObject.GObject, Caja.PropertyPageProvider):
     if file.is_directory():
       return
 
-    filename = unquote(file.get_uri()[7:])
+    filename = unquote(file.get_uri()[7:]).decode(sys.getfilesystemencoding())
 
     MI = MediaInfo()
     MI.Option_Static("Complete")
