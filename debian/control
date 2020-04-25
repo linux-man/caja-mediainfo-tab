@@ -16,6 +16,6 @@ Priority: extra
 Depends: ${python:Depends},
          ${misc:Depends},
          caja,
-         python-caja,
-         python-mediainfodll
+         python3-caja,
+         python3-mediainfodll
 Description: View media information from the properties tab
