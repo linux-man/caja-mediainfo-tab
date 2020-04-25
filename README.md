@@ -3,6 +3,8 @@ View media information from the properties tab
 
 ## Uses mediainfo lib (https://mediaarea.net/en/MediaInfo)
 
+### It came to my attention that this extension was uploaded to Debian Sid. It's good to be noticed. It's good to be part of a big family. :smile:
+
 ## Installation
 
 ppa:caldas-lopes/ppa
